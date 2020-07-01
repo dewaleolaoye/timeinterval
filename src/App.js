@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { morning, noon, night } from "./components/interval";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
+          {console.log(morning, "morning")}
+          {console.log(noon, "noon")}
+          {console.log(night, "night")}
           Learn React
         </a>
       </header>
